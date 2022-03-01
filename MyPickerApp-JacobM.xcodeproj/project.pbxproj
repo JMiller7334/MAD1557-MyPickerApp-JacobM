@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F87923B27CE86220082530E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87923A27CE86220082530E /* AppDelegate.swift */; };
+		3F87923D27CE86220082530E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87923C27CE86220082530E /* SceneDelegate.swift */; };
+		3F87923F27CE86220082530E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87923E27CE86220082530E /* ViewController.swift */; };
+		3F87924227CE86220082530E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87924027CE86220082530E /* Main.storyboard */; };
+		3F87924427CE86240082530E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87924327CE86240082530E /* Assets.xcassets */; };
+		3F87924727CE86240082530E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87924527CE86240082530E /* LaunchScreen.storyboard */; };
+		3F87925227CE86250082530E /* MyPickerApp_JacobMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87925127CE86250082530E /* MyPickerApp_JacobMTests.swift */; };
+		3F87925C27CE86250082530E /* MyPickerApp_JacobMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87925B27CE86250082530E /* MyPickerApp_JacobMUITests.swift */; };
+		3F87925E27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87925D27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F87924E27CE86250082530E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F87922F27CE86220082530E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F87923627CE86220082530E;
+			remoteInfo = "MyPickerApp-JacobM";
+		};
+		3F87925827CE86250082530E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F87922F27CE86220082530E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F87923627CE86220082530E;
+			remoteInfo = "MyPickerApp-JacobM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F87923727CE86220082530E /* MyPickerApp-JacobM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyPickerApp-JacobM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87923A27CE86220082530E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F87923C27CE86220082530E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F87923E27CE86220082530E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F87924127CE86220082530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F87924327CE86240082530E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F87924627CE86240082530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F87924827CE86240082530E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F87924D27CE86250082530E /* MyPickerApp-JacobMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyPickerApp-JacobMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87925127CE86250082530E /* MyPickerApp_JacobMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerApp_JacobMTests.swift; sourceTree = "<group>"; };
+		3F87925727CE86250082530E /* MyPickerApp-JacobMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyPickerApp-JacobMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87925B27CE86250082530E /* MyPickerApp_JacobMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerApp_JacobMUITests.swift; sourceTree = "<group>"; };
+		3F87925D27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerApp_JacobMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F87923427CE86220082530E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87924A27CE86250082530E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87925427CE86250082530E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F87922E27CE86220082530E = {
+			isa = PBXGroup;
+			children = (
+				3F87923927CE86220082530E /* MyPickerApp-JacobM */,
+				3F87925027CE86250082530E /* MyPickerApp-JacobMTests */,
+				3F87925A27CE86250082530E /* MyPickerApp-JacobMUITests */,
+				3F87923827CE86220082530E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F87923827CE86220082530E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F87923727CE86220082530E /* MyPickerApp-JacobM.app */,
+				3F87924D27CE86250082530E /* MyPickerApp-JacobMTests.xctest */,
+				3F87925727CE86250082530E /* MyPickerApp-JacobMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F87923927CE86220082530E /* MyPickerApp-JacobM */ = {
+			isa = PBXGroup;
+			children = (
+				3F87923A27CE86220082530E /* AppDelegate.swift */,
+				3F87923C27CE86220082530E /* SceneDelegate.swift */,
+				3F87923E27CE86220082530E /* ViewController.swift */,
+				3F87924027CE86220082530E /* Main.storyboard */,
+				3F87924327CE86240082530E /* Assets.xcassets */,
+				3F87924527CE86240082530E /* LaunchScreen.storyboard */,
+				3F87924827CE86240082530E /* Info.plist */,
+			);
+			path = "MyPickerApp-JacobM";
+			sourceTree = "<group>";
+		};
+		3F87925027CE86250082530E /* MyPickerApp-JacobMTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F87925127CE86250082530E /* MyPickerApp_JacobMTests.swift */,
+			);
+			path = "MyPickerApp-JacobMTests";
+			sourceTree = "<group>";
+		};
+		3F87925A27CE86250082530E /* MyPickerApp-JacobMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F87925B27CE86250082530E /* MyPickerApp_JacobMUITests.swift */,
+				3F87925D27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift */,
+			);
+			path = "MyPickerApp-JacobMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F87923627CE86220082530E /* MyPickerApp-JacobM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87926127CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobM" */;
+			buildPhases = (
+				3F87923327CE86220082530E /* Sources */,
+				3F87923427CE86220082530E /* Frameworks */,
+				3F87923527CE86220082530E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyPickerApp-JacobM";
+			productName = "MyPickerApp-JacobM";
+			productReference = 3F87923727CE86220082530E /* MyPickerApp-JacobM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F87924C27CE86250082530E /* MyPickerApp-JacobMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87926427CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobMTests" */;
+			buildPhases = (
+				3F87924927CE86250082530E /* Sources */,
+				3F87924A27CE86250082530E /* Frameworks */,
+				3F87924B27CE86250082530E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F87924F27CE86250082530E /* PBXTargetDependency */,
+			);
+			name = "MyPickerApp-JacobMTests";
+			productName = "MyPickerApp-JacobMTests";
+			productReference = 3F87924D27CE86250082530E /* MyPickerApp-JacobMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F87925627CE86250082530E /* MyPickerApp-JacobMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87926727CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobMUITests" */;
+			buildPhases = (
+				3F87925327CE86250082530E /* Sources */,
+				3F87925427CE86250082530E /* Frameworks */,
+				3F87925527CE86250082530E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F87925927CE86250082530E /* PBXTargetDependency */,
+			);
+			name = "MyPickerApp-JacobMUITests";
+			productName = "MyPickerApp-JacobMUITests";
+			productReference = 3F87925727CE86250082530E /* MyPickerApp-JacobMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F87922F27CE86220082530E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F87923627CE86220082530E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F87924C27CE86250082530E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F87923627CE86220082530E;
+					};
+					3F87925627CE86250082530E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F87923627CE86220082530E;
+					};
+				};
+			};
+			buildConfigurationList = 3F87923227CE86220082530E /* Build configuration list for PBXProject "MyPickerApp-JacobM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F87922E27CE86220082530E;
+			productRefGroup = 3F87923827CE86220082530E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F87923627CE86220082530E /* MyPickerApp-JacobM */,
+				3F87924C27CE86250082530E /* MyPickerApp-JacobMTests */,
+				3F87925627CE86250082530E /* MyPickerApp-JacobMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F87923527CE86220082530E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87924727CE86240082530E /* LaunchScreen.storyboard in Resources */,
+				3F87924427CE86240082530E /* Assets.xcassets in Resources */,
+				3F87924227CE86220082530E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87924B27CE86250082530E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87925527CE86250082530E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F87923327CE86220082530E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87923F27CE86220082530E /* ViewController.swift in Sources */,
+				3F87923B27CE86220082530E /* AppDelegate.swift in Sources */,
+				3F87923D27CE86220082530E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87924927CE86250082530E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87925227CE86250082530E /* MyPickerApp_JacobMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F87925327CE86250082530E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87925E27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift in Sources */,
+				3F87925C27CE86250082530E /* MyPickerApp_JacobMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F87924F27CE86250082530E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F87923627CE86220082530E /* MyPickerApp-JacobM */;
+			targetProxy = 3F87924E27CE86250082530E /* PBXContainerItemProxy */;
+		};
+		3F87925927CE86250082530E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F87923627CE86220082530E /* MyPickerApp-JacobM */;
+			targetProxy = 3F87925827CE86250082530E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F87924027CE86220082530E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87924127CE86220082530E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F87924527CE86240082530E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87924627CE86240082530E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F87925F27CE86250082530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F87926027CE86250082530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F87926227CE86250082530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyPickerApp-JacobM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F87926327CE86250082530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyPickerApp-JacobM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F87926527CE86250082530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPickerApp-JacobM.app/MyPickerApp-JacobM";
+			};
+			name = Debug;
+		};
+		3F87926627CE86250082530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPickerApp-JacobM.app/MyPickerApp-JacobM";
+			};
+			name = Release;
+		};
+		3F87926827CE86250082530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyPickerApp-JacobM";
+			};
+			name = Debug;
+		};
+		3F87926927CE86250082530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MCC.MyPickerApp-JacobMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyPickerApp-JacobM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F87923227CE86220082530E /* Build configuration list for PBXProject "MyPickerApp-JacobM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87925F27CE86250082530E /* Debug */,
+				3F87926027CE86250082530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F87926127CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87926227CE86250082530E /* Debug */,
+				3F87926327CE86250082530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F87926427CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87926527CE86250082530E /* Debug */,
+				3F87926627CE86250082530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F87926727CE86250082530E /* Build configuration list for PBXNativeTarget "MyPickerApp-JacobMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87926827CE86250082530E /* Debug */,
+				3F87926927CE86250082530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F87922F27CE86220082530E /* Project object */;
+}
