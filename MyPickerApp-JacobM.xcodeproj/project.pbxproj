@@ -18,6 +18,7 @@
 		3F87925E27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87925D27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift */; };
 		3F87926B27CE87740082530E /* ViewControllerDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87926A27CE87740082530E /* ViewControllerDatePicker.swift */; };
 		3F87927127CE8B0E0082530E /* ViewControllerCustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87927027CE8B0E0082530E /* ViewControllerCustomPicker.swift */; };
+		3F8793A127D5A06D0082530E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8793A027D5A06D0082530E /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3F87925D27CE86250082530E /* MyPickerApp_JacobMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerApp_JacobMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F87926A27CE87740082530E /* ViewControllerDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDatePicker.swift; sourceTree = "<group>"; };
 		3F87927027CE8B0E0082530E /* ViewControllerCustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCustomPicker.swift; sourceTree = "<group>"; };
+		3F8793A027D5A06D0082530E /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3F87924827CE86240082530E /* Info.plist */,
 				3F87926A27CE87740082530E /* ViewControllerDatePicker.swift */,
 				3F87927027CE8B0E0082530E /* ViewControllerCustomPicker.swift */,
+				3F8793A027D5A06D0082530E /* MyTableViewController.swift */,
 			);
 			path = "MyPickerApp-JacobM";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F87926B27CE87740082530E /* ViewControllerDatePicker.swift in Sources */,
+				3F8793A127D5A06D0082530E /* MyTableViewController.swift in Sources */,
 				3F87923F27CE86220082530E /* ViewController.swift in Sources */,
 				3F87923B27CE86220082530E /* AppDelegate.swift in Sources */,
 				3F87923D27CE86220082530E /* SceneDelegate.swift in Sources */,

@@ -38,19 +38,30 @@
                                     <segue destination="Vih-u8-ycV" kind="show" id="OoP-nq-xvd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs5-s2-oA5">
+                                <rect key="frame" x="100" y="290.5" width="214" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="View Apps"/>
+                                <connections>
+                                    <segue destination="hmJ-oQ-51z" kind="show" id="bcH-vr-Yub"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qI4-th-0Yb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="7y8-dv-1Gx"/>
                             <constraint firstItem="oFr-zI-S8E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="C3i-Ql-j4H"/>
+                            <constraint firstItem="Gs5-s2-oA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Gy3-Tn-YqI"/>
                             <constraint firstItem="qI4-th-0Yb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="IWc-eh-o1S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qI4-th-0Yb" secondAttribute="trailing" constant="70" id="Off-WD-Mbq"/>
                             <constraint firstItem="oFr-zI-S8E" firstAttribute="top" secondItem="qI4-th-0Yb" secondAttribute="bottom" constant="30" id="SHS-QB-bWS"/>
                             <constraint firstItem="wb3-Gf-6sY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="jiS-8j-01m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gs5-s2-oA5" secondAttribute="trailing" constant="100" id="jsF-S9-GUB"/>
                             <constraint firstItem="wb3-Gf-6sY" firstAttribute="top" secondItem="oFr-zI-S8E" secondAttribute="bottom" constant="30" id="lG4-IM-sBg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wb3-Gf-6sY" secondAttribute="trailing" constant="100" id="tNy-cs-Bhn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oFr-zI-S8E" secondAttribute="trailing" constant="100" id="tOw-gp-0fi"/>
+                            <constraint firstItem="Gs5-s2-oA5" firstAttribute="top" secondItem="wb3-Gf-6sY" secondAttribute="bottom" constant="30" id="vzB-QW-dI1"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="87l-wh-uc9"/>
@@ -158,6 +169,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cuS-Kw-1k4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2242.0289855072465" y="69.642857142857139"/>
+        </scene>
+        <!--My Table View Controller-->
+        <scene sceneID="FQ5-L1-6gu">
+            <objects>
+                <viewController id="hmJ-oQ-51z" customClass="MyTableViewController" customModule="MyPickerApp_JacobM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZX-3o-NVd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mgu-uy-qXW">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bfF-Tv-kK6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mgu-uy-qXW" firstAttribute="top" secondItem="bfF-Tv-kK6" secondAttribute="top" id="EuL-K8-rBZ"/>
+                            <constraint firstItem="bfF-Tv-kK6" firstAttribute="bottom" secondItem="mgu-uy-qXW" secondAttribute="bottom" id="YEW-SE-Hcf"/>
+                            <constraint firstItem="mgu-uy-qXW" firstAttribute="leading" secondItem="bfF-Tv-kK6" secondAttribute="leading" id="bCv-uD-N2G"/>
+                            <constraint firstItem="bfF-Tv-kK6" firstAttribute="trailing" secondItem="mgu-uy-qXW" secondAttribute="trailing" id="kK4-mD-Yau"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SVU-q8-zbS"/>
+                    <connections>
+                        <outlet property="appTable" destination="mgu-uy-qXW" id="Pgd-5Q-W07"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfH-gU-lx5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="939" y="-586"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="K4o-Nf-FOb">
