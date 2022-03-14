@@ -46,16 +46,45 @@
                                     <segue destination="hmJ-oQ-51z" kind="show" id="bcH-vr-Yub"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CurrentTime" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkA-E5-aDw">
+                                <rect key="frame" x="10" y="366.5" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Theme" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXo-ID-4fV">
+                                <rect key="frame" x="10" y="417" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiB-SF-23Z">
+                                <rect key="frame" x="120" y="482.5" width="174" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clear Settings"/>
+                                <connections>
+                                    <action selector="clearSettingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Nb-5n-e0b"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qI4-th-0Yb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="7y8-dv-1Gx"/>
+                            <constraint firstItem="bXo-ID-4fV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="BZG-LD-gdN"/>
                             <constraint firstItem="oFr-zI-S8E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="C3i-Ql-j4H"/>
                             <constraint firstItem="Gs5-s2-oA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Gy3-Tn-YqI"/>
                             <constraint firstItem="qI4-th-0Yb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="IWc-eh-o1S"/>
+                            <constraint firstItem="bXo-ID-4fV" firstAttribute="top" secondItem="HkA-E5-aDw" secondAttribute="bottom" constant="30" id="JVC-Jx-n8S"/>
+                            <constraint firstItem="hiB-SF-23Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Kd0-DZ-Zu7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qI4-th-0Yb" secondAttribute="trailing" constant="70" id="Off-WD-Mbq"/>
+                            <constraint firstItem="HkA-E5-aDw" firstAttribute="top" secondItem="Gs5-s2-oA5" secondAttribute="bottom" constant="45" id="R6y-Cg-h0U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bXo-ID-4fV" secondAttribute="trailing" constant="10" id="SE8-bd-gNS"/>
                             <constraint firstItem="oFr-zI-S8E" firstAttribute="top" secondItem="qI4-th-0Yb" secondAttribute="bottom" constant="30" id="SHS-QB-bWS"/>
+                            <constraint firstItem="HkA-E5-aDw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="U8S-SS-yJU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hiB-SF-23Z" secondAttribute="trailing" constant="120" id="UQg-RA-1Cf"/>
+                            <constraint firstItem="hiB-SF-23Z" firstAttribute="top" secondItem="bXo-ID-4fV" secondAttribute="bottom" constant="45" id="WO9-jE-PT4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HkA-E5-aDw" secondAttribute="trailing" constant="10" id="Yo6-OX-OIl"/>
                             <constraint firstItem="wb3-Gf-6sY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="jiS-8j-01m"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gs5-s2-oA5" secondAttribute="trailing" constant="100" id="jsF-S9-GUB"/>
                             <constraint firstItem="wb3-Gf-6sY" firstAttribute="top" secondItem="oFr-zI-S8E" secondAttribute="bottom" constant="30" id="lG4-IM-sBg"/>
@@ -65,6 +94,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="87l-wh-uc9"/>
+                    <connections>
+                        <outlet property="labelTheme" destination="bXo-ID-4fV" id="2TJ-H9-G0a"/>
+                        <outlet property="labelTime" destination="HkA-E5-aDw" id="ay1-lR-cYH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

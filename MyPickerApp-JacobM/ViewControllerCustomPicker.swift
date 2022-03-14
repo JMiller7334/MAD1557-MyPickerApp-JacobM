@@ -53,6 +53,8 @@ class ViewControllerCustomPicker: UIViewController, UIPickerViewDataSource, UIPi
         let alert1 = UIAlertController(title: "Change Theme?", message: "Theme:\(pickerTheme[themeIndex]) Color:\(pickerColor[themeIndex])", preferredStyle: .alert)
         let actionOk1 = UIAlertAction(title: "OK", style: .default, handler: {action -> Void in
             self.labelDisplay.text = "Current Theme: \(self.pickerTheme[themeIndex])- \(self.pickerColor[colorIndex])"
+            //MARK: Data Save
+            UserDefaults.standard.set("Current Theme: \(self.pickerTheme[themeIndex])- \(self.pickerColor[colorIndex])", forKey: "keyTheme") // this is what saves the data; The key is how it's
         })
         let actionCancel1 = UIAlertAction(title: "Cancel", style: .destructive, handler: {action -> Void in})
         alert1.addAction(actionOk1)

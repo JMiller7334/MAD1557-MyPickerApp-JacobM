@@ -25,6 +25,8 @@ class ViewControllerDatePicker: UIViewController {
         let timeCancel = UIAlertAction(title: "Cancel", style: .destructive, handler: {action -> Void in})
         let timeConfirm = UIAlertAction(title: "Confirm", style: .default, handler: {action -> Void in
             self.labelTitle.text = "Date recently changed to: \(data)"
+            //MARK: Data Save
+            UserDefaults.standard.set("Date & Time: \(data)", forKey: "keyTime") // this is what saves the data; The key is how it's
         })
         timeAlert.addAction(timeConfirm)
         timeAlert.addAction(timeCancel)
